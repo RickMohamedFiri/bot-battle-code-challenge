@@ -1,0 +1,142 @@
+.main
+{
+  min-height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #a3a2a2;
+  overflow: hidden;
+  background: #00020a;
+}
+
+
+.items
+{
+  width: 90vw;
+  display: flex;
+  margin-left: auto;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+
+.items h2
+{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.botImg
+{
+  width: 100px;
+  height: 100px;
+}
+
+
+.li
+{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  margin: .5rem;
+  padding: 0 1rem;
+  color: #e1e0e0;
+  list-style-type: none;
+  border: 2px solid #16002dce;
+  background: #222;
+  height: 15rem;
+  width: 12rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+
+
+.li:hover
+{
+  cursor: pointer;
+  background:#313131;
+}
+
+
+.catchphrase
+{
+  font-size: .4rem;
+}
+
+.botdetails
+{
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cart
+{
+  display: flex;
+  border-radius: 1rem;
+  margin-left: auto;
+  padding: 1.4rem;
+  background: #333;
+  width: 100%;
+  min-height: 15rem;
+}
+
+.carth2
+{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.list
+{
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 .5rem;
+}
+
+.cartList
+{
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 .5rem;
+}
+
+
+.cartLi
+{
+  cursor: pointer;
+  border-radius: 1rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0 1rem;
+  color: #e1e0e0;
+  list-style-type: none;
+  background: #222;
+  height: 3rem;
+  text-transform: capitalize;
+  width: 100%;
+  font-size: .9rem;
+}
+
+.delete
+{
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+  transition: .3s ease;
+  color: red;
+}
